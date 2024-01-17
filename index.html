@@ -266,10 +266,10 @@
                 <div class="col-lg-6">
                     <div class="bg-white text-center rounded p-5">
                         <h1 class="mb-4">Book An Appointment</h1>
-                        <form>
+                        <form action="https://formsubmit.co/ffclbilly@gmail.com" method="POST" name="sentMessage" id="contactForm">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                    <select name="department" class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Choose Department</option>
                                         <option value="1">Department 1</option>
                                         <option value="2">Department 2</option>
@@ -277,7 +277,7 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                    <select name="doctor" class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Select Doctor</option>
                                         <option value="1">Doctor 1</option>
                                         <option value="2">Doctor 2</option>
@@ -285,10 +285,10 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input name="name" type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input name="email" type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date" data-target-input="nearest">
@@ -299,9 +299,8 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                        <input name="date" type="text" class="form-control bg-light border-0 datetimepicker-input" placeholder="Time" data-target="#time"
+                                            data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -636,6 +635,8 @@
                     <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>GA-428-7360, George Bush Highway, Lapaz Adjacent Abrantie spot</p>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@theosmedcon.com</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+233 24 503 1343</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+233 30 294 6539</p>
                     <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+233 24 503 1343</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
