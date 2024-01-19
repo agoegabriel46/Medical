@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #13C5DD;
+    --primary: #42dd13;
     --secondary: #354F8E;
-    --light: #EFF5F9;
+    --light: #bde40f;
     --dark: #1D2A4D;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/hero2.jpg) top right no-repeat;
     background-size: cover;
 }
 
